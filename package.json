@@ -1,0 +1,19 @@
+{
+  "name": "api-rest-movie",
+  "version": "1.0.0",
+  "description": "Consumo de API REST con JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanghel/api-rest-movie.git"
+  },
+  "author": "Sanghel Gonzalez <sanghelgonzalez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sanghel/api-rest-movie/issues"
+  },
+  "homepage": "https://github.com/Sanghel/api-rest-movie#readme"
+}
