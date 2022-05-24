@@ -29,8 +29,11 @@ searchFormBtn.addEventListener('click', () => {
       homePage();
     }
   
+    
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+    document.body.scrollRight = 0;
+    document.documentElement.scrollRight = 0;
   }
   
   function homePage() {
