@@ -1,10 +1,6 @@
-searchFormBtn.addEventListener('click', () => {
-    location.hash = '#search=';
-});
+searchFormBtn.addEventListener('click', () => location.hash = '#search=')
 
-trendingBtn.addEventListener('click', () => {
-    location.hash = '#trends';
-});
+trendingBtn.addEventListener('click', () => location.hash = '#trends')
 
 arrowBtn.addEventListener('click', () => {
     location.hash = '#home';
@@ -22,6 +18,8 @@ function navigator () {
     location.hash.startsWith('#movie=')    ? movieDetailsPage() :
     location.hash.startsWith('#category=') ? categoriesPage()   :
     homePage()
+
+    document.scrollTop = 0;
 }
 
 function homePage() {
