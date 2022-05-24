@@ -29,7 +29,6 @@ async function getTrendingMoviesPreview() {
         movieContainer.appendChild(movieImg);
         trendingPreviewMoviesContainer.appendChild(movieContainer);
     });
-
 }
 
 async function getCategoriesMoviesPreview() {
@@ -50,10 +49,5 @@ async function getCategoriesMoviesPreview() {
         categoryTitle.appendChild(categoryTitleText);
         categoryContainer.appendChild(categoryTitle);
         previewCategoriesContainer.appendChild(categoryContainer);
-
     });
-
 }
-
-getTrendingMoviesPreview();
-getCategoriesMoviesPreview();
